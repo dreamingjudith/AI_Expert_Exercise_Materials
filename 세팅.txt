@@ -1,0 +1,25 @@
+1. cmd 접속
+2. ssh -X -p 2222 com01@143.248.159.27 (비밀번호 : 1234) (ex. 1주차: com**@143.248.159.**, 2주차: com**02@143.248.159.**)
+3. jupyter notebook --generate--config
+4. ipython 입력 후
+   In [1] : from notebook.auth import passwd
+   ln [2] : passwd()
+      Enter password: samsung
+      Verify password: samsung
+   Out[2]: 'sha1:~~~' (hash number를 드래그 후 우클릭으로 복사한다.)
+   ln [3] : exit()
+5. vim ~/.jupyter/jupyter_notebook_config.py
+6. 빈 라인(empty line anywhere)에 i(끼워넣기 모드)를 먼저 누르고 다음과 같이 입력
+   c = get_config()
+   c.NotebookApp.password = u'sha1:~~~'
+   c.Notebook.App.port = 8888
+   esc 버튼 한번 누른뒤 :wq! 입력
+7. jupyter notebook --ip=* --port 2020 --no-browser 입력
+8. firefox에서 http:143.248.159.27:2020(http:본인IP:2020) 통해 jupyter notebook 창으로 접속
+8. 비밀번호 samsung 입력 후 접속
+9. jupyter notebook 화면이 켜지면 terminal 창을 생성 후 
+   git clone https://github.com/jonghyupkim/Samsung_DS.git 치고 엔터를 누르면 파일 생성
+-----------------------------------------설치끗~-----------------------------------------------
+
+과제 : [Practice] 부분을 전부 채워서 모두 실행 후 jupyter notebook 다운로드해서
+        1주차_성함(PCA).ipynb 파일로 leenams2@kaist.ac.kr 제출부탁드립니다.
