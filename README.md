@@ -8,5 +8,5 @@
  - [Principal Component Analysis](day1/PCA(student).ipynb)
  
  ## Day 2
- - [TensorFlow Basic]("day2/Tensorflow_Basic 문제.ipynb")
+ - [TensorFlow Basic](day2/Tensorflow_Basic_문제.ipynb)
  - [Optimization](day2/Optimization.ipynb)
