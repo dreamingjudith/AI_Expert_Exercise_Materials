@@ -1,0 +1,3 @@
+conda env create --file samsung_bias.yml 
+conda activate samsung_bias
+python -m ipykernel install --user --name=samsung_bias 
