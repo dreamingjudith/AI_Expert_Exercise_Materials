@@ -1,5 +1,5 @@
-# DS-KAIST-AI-Expert-RL
+# Introduction to Reinforcement Learning
 
-2020/07/16 실습용 소스코드입니다.
+[Original Repository](https://github.com/dlqudwns/DS-KAIST-AI-Expert-RL)
 
-슬라이드: https://docs.google.com/presentation/d/1t9PjYbq4yZo8vppwDWJxiBjCbHkl4pxtcIHf1Vb7Qu4/edit?usp=drivesdk
+[슬라이드](https://docs.google.com/presentation/d/1t9PjYbq4yZo8vppwDWJxiBjCbHkl4pxtcIHf1Vb7Qu4/edit?usp=drivesdk)
