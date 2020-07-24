@@ -38,6 +38,7 @@ def bayes_dense(x, num_units, name='dense', gamma=1.0, activation=None):
 
         return x, kld
 
+# Trick for gradient variance. See https://arxiv.org/abs/1506.02557
 def bayes_dense_2(x, num_units, name='dense', gamma=1.0, activation=None):
     with tf.variable_scope(name, reuse=tf.AUTO_REUSE):
         W_mu = tf.get_variable('W_mu', [x.shape[1], num_units])
