@@ -4,6 +4,8 @@
 
 ## Using transformer models in `seq2seq_transformer` folder
 
+[Original Repository](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
+
 ### Preprocessing
 
 Download model with spacy, but I don't know the exact meaning
