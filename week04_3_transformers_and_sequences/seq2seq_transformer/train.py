@@ -14,9 +14,9 @@ import torch.optim as optim
 from torchtext.data import Field, Dataset, BucketIterator
 from torchtext.datasets import TranslationDataset
 
-import seq2seq_transformer.transformer.Constants as Constants
-from seq2seq_transformer.transformer.Models import Transformer
-from seq2seq_transformer.transformer.Optim import ScheduledOptim
+import transformer.Constants as Constants
+from transformer.Models import Transformer
+from transformer.Optim import ScheduledOptim
 
 
 def cal_performance(pred, gold, trg_pad_idx, smoothing=False):
