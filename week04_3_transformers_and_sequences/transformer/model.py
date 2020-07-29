@@ -5,7 +5,7 @@ from random import randint
 import torch
 import torch.nn as nn
 
-from transformer.bpe import BytePairEncoding
+#from transformer.bpe import BytePairEncoding
 
 
 def dot_scaled_attention(
