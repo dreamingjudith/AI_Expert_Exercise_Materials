@@ -1,6 +1,6 @@
 # Object Detection and Segmentation
 
-4주 4일차 **Object Detection and Segmentation** 실습 파일입니다.
+4주 4일차 **Object Detection and Segmentation** 실습 파일입니다. [Original Repository](https://github.com/alinlab/0730_detection_segmentation)
 
 ## Object Detection
 
