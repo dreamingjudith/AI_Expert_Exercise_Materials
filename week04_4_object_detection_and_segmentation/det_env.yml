@@ -1,0 +1,14 @@
+name: 0730_detection
+channels:
+  - defaults
+dependencies:
+  - python=3.5
+  - pip:
+    - jupyterlab
+    - matplotlib
+    - pillow==7.2.0
+    - gast==0.2.2
+    - numpy==1.16.0
+    - tensorflow-gpu==1.14.0
+    - opencv-python
+    - tensorflow-plot

@@ -1,0 +1,3 @@
+[submodule "week04_4_object_detection_and_segmentation/object_detection"]
+	path = week04_4_object_detection_and_segmentation/object_detection
+	url = https://github.com/DetectionTeamUCAS/FPN_Tensorflow
