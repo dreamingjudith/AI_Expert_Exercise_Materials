@@ -3,6 +3,7 @@ channels:
   - defaults
 dependencies:
   - python=3.5
+  - cython=0.28.5
   - pip:
     - jupyterlab
     - matplotlib
