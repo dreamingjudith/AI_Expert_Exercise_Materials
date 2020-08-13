@@ -1,3 +1,6 @@
 [submodule "week04_4_object_detection_and_segmentation/object_detection"]
 	path = week04_4_object_detection_and_segmentation/object_detection
 	url = https://github.com/DetectionTeamUCAS/FPN_Tensorflow
+[submodule "week06_4_dialogue_systems/ConvLab-2"]
+	path = week06_4_dialogue_systems/ConvLab-2
+	url = git@github.com:DH95/ConvLab-2.git
